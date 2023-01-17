@@ -1,4 +1,7 @@
 import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+
 # Generate made-up stock data
 num_days = 365
 open_prices = np.random.randint(20, 100, size=num_days)
